@@ -22,7 +22,7 @@ Note: I analyzed 70 out of the 112 intermediate teeth branches on the MST (Each 
 1. Transfer meshes, landmarks, and taxa codes to the grid (I ran CollectArtiTeeth.m with the original intermediate teeth data given to me) 
 (CollectArtiTeeth.m also renames all .off files to _sas.off files for consistency)
 2. Generate the teeth samples on the grid
-3. Run cluster_testingbranch.m (adjust line 57 to change which teeth branches I run the script for) and the results get sent to the Rslts folder, which has multiple Rslts folders 
+3. Run cluster_testingbranch.m (adjust line 57 to change which teeth branches I run the script for) (I usually run ~8 branches at a time) and the results get sent to the Rslts folder, which has multiple Rslts folders 
 that correspond to a specific branch (for instance, Rslts/rslts_a10_a13))
 4. Transfer new branch results to NumDensityRslts on my local drive
   How things are structured in NumDensityRslts:
