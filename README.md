@@ -12,8 +12,8 @@ Note: I analyzed 70 out of the 112 intermediate teeth branches on the MST (Each 
   
   To look at results for multiple branches:
     (If new data for new branches are added, update everything with AnalyzingcPdistRelationships.m)
-    -Run FitRatio.m (which, additionally, for the final plot, eliminates outliers and points that correspond to r^2 values less than 0.7)
-    -MyCoefs corresponds to the coefficients in the model I used to fit that data to 
+    Run FitRatio.m (which, additionally, for the final plot, eliminates outliers and points that correspond to r^2 values less than 0.7)
+    MyCoefs corresponds to the coefficients in the model I used to fit that data to 
     (Model eqn ->  y = -(MyCoefs(1)./(MyCoefs(2).*((x).^(MyCoefs(4)))))+MyCoefs(3))
     
 -----------------------------------------------------
