@@ -1,8 +1,8 @@
 # Data---Project-1
-Note: I analyzed 70 out of the 112 intermediate teeth branches on the MST (Each branch takes ~17 hrs to get results for).
+# Note: I analyzed 70 out of the 112 intermediate teeth branches on the MST (Each branch takes ~17 hrs to get results for).
 -----------------------------------------------------
-Accessing/Displaying Results:
-  To look at results for a single branch:
+# Accessing/Displaying Results:
+  # To look at results for a single branch:
     Use the function, AnalyzingNumDensityRslts.m (NumDensity = number of points used for calculating cPdist between teeth)
     (for instance, to analyze the branch between tooth 'a10' and 'a13', run
         AnalyzingNumDensityRslts('a10','a13','linear','on','keep')
