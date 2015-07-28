@@ -28,7 +28,7 @@ that correspond to a specific branch (for instance, Rslts/rslts_a10_a13))
   How things are structured in NumDensityRslts:
     -There are 112 folders in NumDensityRslts, each named according to the branch it represents.
     -Example: looking at a10_a13 branch, I can look inside the rslts_a10_a13 folder, and see 10 .mat files. Each .mat file has just one entry in a 
-    1x10 cell corresponding the number of intermediate teeth. For instance, rslt_mat_1.mat just has the first entry filled, and that entry is a 
+    1x10 cell corresponding the number of intermediate teeth. For instance, rslt_mat_1.mat just has the first entry filled (since it deals with 1 intermediate tooth), and that entry is a 
     1x39 cell, where each cell corresponds to a NumDensity used (So the first cell corresponds to NumDensity = 100, while the last one correponds to
     NumDensity = 2000). Inside each cell is a 1x2 matrix, where the first entry is the LMSE along the non-intermediate teeth branch, while the second entry is the LMSE along the intermediate teeth branch.
 5. Run AnalyzingcPdistRelationships.m to update all branches to include new results.
