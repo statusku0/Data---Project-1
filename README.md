@@ -1,8 +1,8 @@
 # Data---Project-1
-# Note: I analyzed 70 out of the 112 intermediate teeth branches on the MST (Each branch takes ~17 hrs to get results for).
+Note: I analyzed 70 out of the 112 intermediate teeth branches on the MST (Each branch takes ~17 hrs to get results for).
 -----------------------------------------------------
 # Accessing/Displaying Results:
-  # To look at results for a single branch:
+  To look at results for a single branch:
     Use the function, AnalyzingNumDensityRslts.m (NumDensity = number of points used for calculating cPdist between teeth)
     (for instance, to analyze the branch between tooth 'a10' and 'a13', run
         AnalyzingNumDensityRslts('a10','a13','linear','on','keep')
@@ -18,7 +18,7 @@
     
 -----------------------------------------------------
 
-Process I took to get Results:
+# Process I took to get Results:
 1. Transfer meshes, landmarks, and taxa codes to the grid (I ran CollectArtiTeeth.m with the original intermediate teeth data given to me) 
 (CollectArtiTeeth.m also renames all .off files to _sas.off files for consistency)
 2. Generate the teeth samples on the grid
